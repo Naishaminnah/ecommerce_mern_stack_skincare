@@ -1,0 +1,35 @@
+.company{
+    height: 900px;
+    width: 100%;
+    padding-top: 130px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 30px;
+    
+   
+}
+.head img{
+    margin-left: 220px;
+}
+
+.head h1{
+    font-size: 40px;
+    margin-top: 25px;
+  
+}
+.company-description{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    height: 600px;
+    width: 700px;
+    background: white;
+    border: 1px solid black;
+}
+.company-description p{
+    font-size: 20px;
+}
