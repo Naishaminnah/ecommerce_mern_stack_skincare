@@ -1,0 +1,23 @@
+.offices h1{
+    text-align: center;
+
+}
+.offices hr{
+    background-color: brown;
+    height: 5px;
+}
+.office1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-size: 30px;
+}
+.office2{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-size: 30px;
+}
