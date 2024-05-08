@@ -1,0 +1,125 @@
+.offers{
+  width: 50%;
+ height:60vh;
+display:flex;
+margin-top: 100px;
+margin:70px;
+padding: 50px 70px;
+margin-bottom: 100px;
+background: linear-gradient(180deg, #e7c5e5 0%, #e1ffea22 60%);
+gap: 30px;
+}
+.offers-left{
+flex: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.offers-left h1{
+color: #171717;
+font-size: 70px;
+font-weight: 600;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.offers-left p{
+  color: #171717;
+ font-size: 20px;
+ font-weight: 600;
+
+}
+.offers-left button{
+  width: 282px;
+  height: 70px;
+  border-radius: 35px;
+  background: #ff4141;
+  border: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 30px;
+  cursor: pointer;
+
+}
+.offers-right{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end ;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media(max-width:1280px){
+  
+ 
+}
+@media(max-width:1024px){
+  .offers{
+   gap: 50px;
+   padding: 50px;
+   margin: 30px;
+    
+  }
+  
+.offers-left h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 20px
+   }
+     
+   .offers-left p{
+    color: #171717;
+   font-size: 22px;
+   font-weight: 500;
+   margin-top: 20px;
+   padding-left: 10px;
+  
+  }
+  
+  .offers-right img{
+     height: 370px;
+     width: 600px;
+  }
+}
+@media(max-width:800px){
+  .offers{
+    margin: 30px;
+    width: 65%;
+    height: 60vh;
+    padding: 20px;
+  }
+  .offers-left h1{
+     font-size: 40px;
+  }
+  .offers-left p{
+     font-size: 17px;
+
+  }
+  .offers-right img{
+    width: 470px;
+    height: 320px;
+  }
+}
+@media(max-width:500px){
+  .offers{
+    margin: 10px;
+    width: 70%;
+    height: 40vh;
+    padding: 20px;
+    gap: 15px;
+  }
+  .offers-left h1{
+     font-size: 30px;
+     padding: 5px;
+  }
+  .offers-left p{
+     font-size: 12px;
+
+  }
+  .offers-right img{
+    width: 270px;
+    height: 200px;
+  } 
+}
