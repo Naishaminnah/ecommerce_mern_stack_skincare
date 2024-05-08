@@ -1,0 +1,28 @@
+.contact h1{
+  text-align: center;
+  font-size: 60px;
+}
+.contact hr{
+    height: 3px;
+    background-color: brown;
+    
+    
+}
+.contact{
+    height: 700px;
+    width: 100%;
+}
+
+
+.contact h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.contacted p{
+    margin-left:400px;
+    margin-bottom: 400px;
+    font-size: 30px;
+    
+}
